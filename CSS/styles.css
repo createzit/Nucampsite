@@ -5,22 +5,22 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Lobester", cursive; }
+  font-family: "Lobster", cursive; }
 
 h2 {
-  color: #3046c5; }
+  color: #5637dd; }
 
 header h2 {
-  color: #cec8ff; }
+  color: #CEC8FF; }
 
 .site-footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-image: linear-gradient(#CEC8FF, white);
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  background-image: linear-gradient(to right, #5637dd, #5637dd, #60106b);
   color: white; }
 
 ​ .row-content {
@@ -29,16 +29,9 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: #901cad;
+  background-color: #901CAD;
   margin-bottom: 20px; }
 
-/* this is for formatting the Tab section
-.tab-content {
-  border: 1px solid #ddd;
-  border-top: none;
-  padding: 10px;
-}
-*/
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
 
