@@ -28,7 +28,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-ms-2 col-xl-2 mt-4 text-center">
-                    <a class="btn btn-lg btn-info" role="button" data-toggle="modal" data-target="#reserveModal">Reserve
+                    <a class="btn btn-lg btn-info" role="button" id="reserveButton">Reserve
                         Campsite</a>
                 </div>
             </div>
@@ -140,7 +140,7 @@
     
                 <!-- add Login button-->
                 <span class="navbar-text ml-auto">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a id="loginButton">
                         <i class="fa fa-sign-in"></i>
                         Login
                     </a>
@@ -198,10 +198,10 @@
         </div>
     </div>
 
-    <!--PICTURE CAROUSEL-->
+    <!--full body container for index.html-->
     <div class="container">
-    
         
+<!--PICTURE CAROUSEL-->
         <div class="row row-content">
             <div class="col-md-8 mx-auto">
                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -260,61 +260,61 @@
             </div>
         </div>
     
-    
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-right">Discover & Review</h2>
+<!-- Pics and text below Carousel-->
+        <div id="bodyBottom">
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                    <h2 class="text-sm-right">Discover & Review</h2>
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg"
+                            alt="Breadcrumb Trail thumbnail">
+                        <div class="media-body align-self-center">
+                            <h3>Our Campsites</h3>
+                            <p class="d-none d-sm-block">
+                                Explore our growing database of curated campsites and leave your own
+                                reviews!
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg"
-                        alt="Breadcrumb Trail thumbnail">
-                    <div class="media-body align-self-center">
-                        <h3>Our Campsites</h3>
-                        <p class="d-none d-sm-block">
-                            Explore our growing database of curated campsites and leave your own
-                            reviews!
-                        </p>
+            
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 col-md-3">
+                    <h2 lass="text-sm-right">Featured Campsites</h2>
+                </div>
+                <div class="col">
+                    <div class="media">
+                        <div class="media-body align-self-center">
+                            <h3>React Lake Campground</h3>
+                            <p class="d-none d-sm-block">Nestled in the Foothills of the Chrome Mountains, this campground on
+                                the shores of the pristen React Lake is a favority for fly fishers.</p>
+                        </div>
+                        <img src="img/react-lake-thumb.jpg" class=" d-flex ml-3 img-thumbnail ">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4 order-sm-last col-md-3">
+                    <h2>Our Community Partners</h2>
+                </div>
+            
+                <div class="col">
+                    <div class="media">
+                        <img src="img/bootstrap-thumb.png" class="d-flex mr-3 img-thumbnail" alt="Bootstrap Outfitters">
+                        <div class="media-body align-self-center">
+                            <h3>Bootstrap Outfitters</h3>
+                            <p class="d-none d-sm-block">Bootstrap Outfitters suplies you with the gear you need at prices you
+                                can't beat</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2 lass="text-sm-right">Featured Campsites</h2>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <div class="media-body align-self-center">
-                        <h3>React Lake Campground</h3>
-                        <p class="d-none d-sm-block">Nestled in the Foothills of the Chrome Mountains, this campground on
-                            the shores of the pristen React Lake is a favority for fly fishers.</p>
-                    </div>
-                    <img src="img/react-lake-thumb.jpg" class=" d-flex ml-3 img-thumbnail ">
-                </div>
-            </div>
-    
-    
-    
-        </div>
-    
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2>Our Community Partners</h2>
-            </div>
-    
-            <div class="col">
-                <div class="media">
-                    <img src="img/bootstrap-thumb.png" class="d-flex mr-3 img-thumbnail" alt="Bootstrap Outfitters">
-                    <div class="media-body align-self-center">
-                        <h3>Bootstrap Outfitters</h3>
-                        <p class="d-none d-sm-block">Bootstrap Outfitters suplies you with the gear you need at prices you
-                            can't beat</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 
     <footer class="site-footer">
